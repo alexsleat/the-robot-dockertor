@@ -1,0 +1,10 @@
+DOCKER_NAME="dockertor-melodic"
+CONTAINER_NAME="test_melodic"
+
+# Select a robot (Uncomment one)
+#DOCKER_ROBOT="Cozmo"
+#DOCKER_ROBOT="Furhat"
+#DOCKER_ROBOT="Miro"
+#DOCKER_ROBOT="PepperNAO"
+#DOCKER_ROBOT="ROSMelodic"
+#DOCKER_ROBOT="ROSNoetic"
