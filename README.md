@@ -46,6 +46,27 @@ _navigate to the directory_
 
 - When using multiple robots, you can boot several containers. You may be able to mash some dockerfiles together in order have them both running. But this can be a problem when requirements differ. I.e Miro requries ROS Noetic but Pepper does not work with the version of Ubuntu that supports it - (this might not be true, but note worthy while creating your dockers)
 
+# Useful docker commands
+
+See running containers
+
+    docker ps
+
+See filesystem usage
+
+    docker system df
+
+Clean up space
+
+    docker image prune
+    docker container prune
+    docker builder prune
+
+Restart docker
+
+    systemctl restart docker
+
+
 
 # run_docker.sh
 
